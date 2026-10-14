@@ -1,0 +1,17 @@
+[project]
+name = "contract-checklist-cli"
+version = "1.0.0"
+description = "Scan a freelance contract for commonly-missing clauses. Zero dependencies, not legal advice."
+readme = "README.md"
+requires-python = ">=3.8"
+license = {text = "MIT"}
+
+[project.scripts]
+contract-checklist = "check:main"
+
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+py-modules = ["check"]
