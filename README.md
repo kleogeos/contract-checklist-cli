@@ -44,6 +44,16 @@ repos:
 
 By default it only runs on files whose path matches `contract|agreement|sow` (case-insensitive) — adjust `files:` in your config if your filenames differ.
 
+### Use as a GitHub Action
+
+```yaml
+- uses: kleogeos/contract-checklist-cli@main
+  with:
+    files: contract.md sow.md
+```
+
+Fails the workflow if any file is missing a common clause — useful as a check before a contract PR gets merged or a SOW gets sent.
+
 ## What it checks
 
 Payment terms, late fees, scope of work, revision limits, IP/ownership, termination, confidentiality, deposit/kill fee, liability, governing law.
