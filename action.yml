@@ -1,0 +1,22 @@
+name: 'Contract Checklist'
+description: 'Scan a freelance contract or SOW for commonly-missing clauses. Not legal advice.'
+branding:
+  icon: 'check-square'
+  color: 'blue'
+inputs:
+  files:
+    description: 'Space-separated contract file paths to check'
+    required: true
+runs:
+  using: 'composite'
+  steps:
+    - name: Set up Python
+      uses: actions/setup-python@v5
+      with:
+        python-version: '3.x'
+    - name: Install contract-checklist-cli
+      shell: bash
+      run: pip install git+https://github.com/kleogeos/contract-checklist-cli
+    - name: Run contract checklist
+      shell: bash
+      run: contract-checklist ${{ inputs.files }}
