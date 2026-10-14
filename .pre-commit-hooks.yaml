@@ -1,0 +1,7 @@
+- id: contract-checklist
+  name: contract-checklist
+  description: Scan freelance contracts (Markdown/text) for commonly-missing clauses. Not legal advice.
+  entry: contract-checklist
+  language: python
+  types: [text]
+  files: (?i)contract|agreement|sow
