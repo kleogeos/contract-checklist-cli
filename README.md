@@ -58,9 +58,9 @@ Python 3 standard library only.
 
 Free web tools: [invoice generator](https://kleogeos.github.io/freelancer-tools/invoice.html) · [rate calculator](https://kleogeos.github.io/freelancer-tools/rate-calculator.html) · [this tool as a web form](https://kleogeos.github.io/freelancer-tools/contract-checklist.html)
 
-CLI invoice generator: [freelance-invoice-cli](https://github.com/kleogeos/freelance-invoice-cli) · CLI rate calculator: [freelance-rate-cli](https://github.com/kleogeos/freelance-rate-cli)
+CLI invoice generator: [freelance-invoice-cli](https://github.com/kleogeos/freelance-invoice-cli) · CLI rate calculator: [freelance-rate-cli](https://github.com/kleogeos/freelance-rate-cli) · Check if a crypto payment landed: [crypto-pay-cli](https://github.com/kleogeos/crypto-pay-cli)
 
-Full paperwork kit — a ready-to-use contract plus proposal, invoice, and client scripts: [Freelancer Starter Kit ($15)](https://kleogeos.gumroad.com/l/nvjec)
+Full paperwork kit — a ready-to-use contract plus proposal, invoice, and client scripts: [Freelancer Starter Kit ($15, pay with crypto)](https://kleogeos.github.io/freelancer-tools/kit.html)
 
 ## License
 
