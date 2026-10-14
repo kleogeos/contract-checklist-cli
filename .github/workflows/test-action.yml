@@ -1,0 +1,25 @@
+name: Test Action
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Run contract-checklist action (sample-contract.md has known missing clauses)
+        id: check
+        uses: ./
+        with:
+          files: sample-contract.md
+        continue-on-error: true
+      - name: Verify the action actually detected the missing clauses
+        shell: bash
+        run: |
+          if [ "${{ steps.check.outcome }}" = "failure" ]; then
+            echo "PASS: action correctly flagged missing clauses in sample-contract.md"
+          else
+            echo "FAIL: action should have exited non-zero on sample-contract.md but didn't"
+            exit 1
+          fi
