@@ -56,7 +56,7 @@ Python 3 standard library only.
 
 ## More freelance tools
 
-Free web tools: [invoice generator](https://kleogeos.github.io/freelancer-tools/invoice.html) · [rate calculator](https://kleogeos.github.io/freelancer-tools/rate-calculator.html)
+Free web tools: [invoice generator](https://kleogeos.github.io/freelancer-tools/invoice.html) · [rate calculator](https://kleogeos.github.io/freelancer-tools/rate-calculator.html) · [this tool as a web form](https://kleogeos.github.io/freelancer-tools/contract-checklist.html)
 
 CLI invoice generator: [freelance-invoice-cli](https://github.com/kleogeos/freelance-invoice-cli)
 
