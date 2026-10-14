@@ -34,26 +34,31 @@ def check(text):
 
 def main():
     ap = argparse.ArgumentParser(description=__doc__)
-    ap.add_argument("file", help="contract text/markdown file")
+    ap.add_argument("files", nargs="+", help="contract text/markdown file(s)")
     args = ap.parse_args()
 
-    with open(args.file, encoding="utf-8") as f:
-        text = f.read()
+    any_missing = False
+    for i, path in enumerate(args.files):
+        if i:
+            print()
+        with open(path, encoding="utf-8") as f:
+            text = f.read()
 
-    found, missing = check(text)
+        found, missing = check(text)
+        any_missing = any_missing or bool(missing)
 
-    print(f"Checked {args.file} — {len(found)}/{len(CHECKS)} common clauses detected.\n")
-    if found:
-        print("Found:")
-        for label in found:
-            print(f"  [x] {label}")
-    if missing:
-        print("\nPossibly missing — worth double-checking:")
-        for label in missing:
-            print(f"  [ ] {label}")
+        print(f"Checked {path} — {len(found)}/{len(CHECKS)} common clauses detected.\n")
+        if found:
+            print("Found:")
+            for label in found:
+                print(f"  [x] {label}")
+        if missing:
+            print("\nPossibly missing — worth double-checking:")
+            for label in missing:
+                print(f"  [ ] {label}")
+
     print("\nKeyword heuristic only, not legal advice — read your contract yourself.")
-
-    sys.exit(1 if missing else 0)
+    sys.exit(1 if any_missing else 0)
 
 
 if __name__ == "__main__":
