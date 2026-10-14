@@ -72,6 +72,8 @@ CLI invoice generator: [freelance-invoice-cli](https://github.com/kleogeos/freel
 
 Full paperwork kit — a ready-to-use contract plus proposal, invoice, and client scripts: [Freelancer Starter Kit ($15, pay with crypto)](https://kleogeos.github.io/freelancer-tools/kit.html)
 
+Free and will stay free. If it saved you time: [tip with crypto](https://kleogeos.github.io/freelancer-tools/donate.html).
+
 ## License
 
 MIT
