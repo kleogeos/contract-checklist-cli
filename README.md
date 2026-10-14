@@ -23,6 +23,13 @@ Possibly missing — worth double-checking:
 
 Exits non-zero if anything looks missing, so you can wire it into a pre-send checklist or CI step.
 
+### Install (optional)
+
+```bash
+pip install git+https://github.com/kleogeos/contract-checklist-cli
+contract-checklist my-contract.md
+```
+
 ## What it checks
 
 Payment terms, late fees, scope of work, revision limits, IP/ownership, termination, confidentiality, deposit/kill fee, liability, governing law.
