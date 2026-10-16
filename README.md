@@ -39,7 +39,7 @@ Add to your `.pre-commit-config.yaml`:
 ```yaml
 repos:
   - repo: https://github.com/kleogeos/contract-checklist-cli
-    rev: main
+    rev: v1.0.0
     hooks:
       - id: contract-checklist
 ```
@@ -49,7 +49,7 @@ By default it only runs on files whose path matches `contract|agreement|sow` (ca
 ### Use as a GitHub Action
 
 ```yaml
-- uses: kleogeos/contract-checklist-cli@main
+- uses: kleogeos/contract-checklist-cli@v1.0.0
   with:
     files: contract.md sow.md
 ```
