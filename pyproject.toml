@@ -5,6 +5,20 @@ description = "Scan a freelance contract for commonly-missing clauses. Zero depe
 readme = "README.md"
 requires-python = ">=3.8"
 license = {text = "MIT"}
+authors = [{name = "kleogeos", email = "kleogeos@gmail.com"}]
+keywords = ["freelance", "contract", "legal-checklist", "cli"]
+classifiers = [
+    "Environment :: Console",
+    "Intended Audience :: Other Audience",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3",
+    "Topic :: Office/Business :: Financial",
+]
+
+[project.urls]
+Homepage = "https://github.com/kleogeos/contract-checklist-cli"
+Repository = "https://github.com/kleogeos/contract-checklist-cli"
 
 [project.scripts]
 contract-checklist = "check:main"
