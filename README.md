@@ -72,7 +72,7 @@ Free web tools: [invoice generator](https://kleogeos.github.io/freelancer-tools/
 
 CLI invoice generator: [freelance-invoice-cli](https://github.com/kleogeos/freelance-invoice-cli) · CLI rate calculator: [freelance-rate-cli](https://github.com/kleogeos/freelance-rate-cli) · Check if a crypto payment landed: [crypto-pay-cli](https://github.com/kleogeos/crypto-pay-cli) · Track billable hours: [freelance-time-cli](https://github.com/kleogeos/freelance-time-cli) and [freelance-expense-cli](https://github.com/kleogeos/freelance-expense-cli) for expense tracking · Quote before the contract: [freelance-proposal-cli](https://github.com/kleogeos/freelance-proposal-cli)
 
-Full paperwork kit — a ready-to-use contract plus proposal, invoice, and client scripts: [Freelancer Starter Kit ($15, pay with crypto)](https://kleogeos.github.io/freelancer-tools/kit.html)
+Full paperwork kit — a ready-to-use contract plus proposal, invoice, and client scripts: [Freelancer Starter Kit ($15, crypto or Telegram Stars, no KYC)](https://kleogeos.github.io/freelancer-tools/kit.html)
 
 Free and will stay free. If it saved you time: [tip with crypto](https://kleogeos.github.io/freelancer-tools/donate.html).
 
