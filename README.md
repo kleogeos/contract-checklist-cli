@@ -60,7 +60,7 @@ Fails the workflow if any file is missing a common clause — useful as a check 
 
 Payment terms, late fees, scope of work, revision limits, IP/ownership, termination, confidentiality, deposit/kill fee, liability, governing law.
 
-**This is a keyword heuristic, not legal advice.** It won't catch clauses phrased unusually, and finding a keyword doesn't mean the clause is actually good — read your contract.
+**This is a keyword heuristic, not legal advice.** It won't catch clauses phrased unusually, and finding a keyword doesn't mean the clause is actually good — read your contract. Not sure what "good" looks like for each clause, not just whether a keyword is present? See [How to Write a Freelance Contract](https://kleogeos.github.io/freelancer-tools/how-to-write-a-freelance-contract.html?src=cli-contractchecklist-howto).
 
 ## Zero dependencies
 
